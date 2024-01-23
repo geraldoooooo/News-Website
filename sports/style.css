@@ -1,0 +1,209 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+}
+
+.page {
+  min-height: 100%;
+  position: relative;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+header{
+  background-color: white;
+  margin: 0px;
+  background-size: cover;
+  height: 84px; 
+  padding-top: 20px;
+  border-bottom: 1px rgb(116, 116, 116) solid double;
+  padding-left: 30px;
+  text-align: center;
+  font-family: fantasy;
+ }
+
+ .nav{
+  font-family: "jost";
+  background-color: rgb(255, 255, 255);
+  margin: 0%;
+  height: 36.7px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-align: right;
+  width: 100%;
+  padding-top: 17px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  border-top: 0.8px solid rgb(187, 187, 187);
+  font-weight: 500;
+} 
+
+.sport{
+  display: inline-block;
+  padding-right: 10px;
+  border-right: 1px rgb(0, 0, 0) solid;
+  text-decoration: none;
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.business{
+  display: inline-block;
+  padding-right: 10px;
+  border-right: 1px rgb(0, 0, 0) solid;
+  text-decoration: none;
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.lifestyle{
+  display: inline-block;
+  padding-right: 10px;
+  border-right: 1px rgb(0, 0, 0) solid;
+  text-decoration: none;
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.entertainment{
+  display: inline-block;
+  padding-right: 10px;
+  border-right: 1px rgb(0, 0, 0) solid;
+  text-decoration: none;
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.main{
+display: flex;
+}
+
+.right{
+    width: 35%;
+} 
+.left{
+    width: 65%;
+    margin-right: 20px;
+}
+
+footer {
+  width: 100%;
+  margin-bottom: 0%;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  height: 50px;
+  padding-top: 20px;
+  text-align: left;
+  margin-bottom: 0%;
+}
+
+.sign-up{
+  display: inline-block;
+  padding-right: 10px;
+  border: none;
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.about{
+  display: inline-block;
+  padding-right: 10px;
+  border: none;
+  margin-left: 10px;
+  color: white;
+}
+
+.contact{
+  display: inline-block;
+  padding-right: 10px;
+  border: none;
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.time{
+  font-family: nyt-franklin,helvetica;
+  margin: 0%;
+  font-size: 0.80rem;
+  font-weight: 3px;
+  margin-bottom: 15px;
+}
+
+.time p{
+  margin: 0%;
+  font-size: 90%;
+}
+
+.headline{
+  font-family: nyt-cheltenham-text-cond,nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-size: 20px;
+  font-weight: 15px;
+  color: black;
+  margin: 0%;
+  line-height: 1.15em;
+  letter-spacing: 0.0025em;
+}
+
+.side1{
+border-bottom: 1px grey dotted;
+}
+
+.side2{
+border-bottom: 1px grey dotted;
+}
+
+.top{
+display: flex;
+}
+
+.main-image{
+width: 50%;
+border-radius: 5px;
+}
+
+.side1{
+width: 42%;
+margin-left: 4%;
+margin-right: 4%;
+line-height: 25px;
+color: rgb(66, 66, 66);
+border: none;
+}
+
+.bottom{
+margin-top: 30px;
+flex-direction: row;
+width: 100%;
+}
+
+.bottom1{
+display: inline-block;
+margin-right: 7px;
+}
+
+.sub-image{
+width: 230px;
+height: 150px;
+border-radius: 5px;
+}
+
+.text{
+width: 230px;
+margin-bottom: 5%;
+}
+
+.head{
+text-decoration: none;
+color: black;
+font-size: 30px;
+width: 300px;
+  display: inline-block;
+  margin: none;
+  margin-bottom: 0%;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+}

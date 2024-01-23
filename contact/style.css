@@ -1,0 +1,256 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+}
+
+.page {
+  min-height: 100%;
+  position: relative;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+header{
+  background-color: white;
+  margin: 0px;
+  background-size: cover;
+  height: 84px; 
+  padding-top: 20px;
+  border-bottom: 1px rgb(116, 116, 116) solid double;
+  padding-left: 30px;
+  text-align: center;
+  font-family: fantasy;
+ }
+
+ .nav{
+  font-family: "jost";
+  background-color: rgb(255, 255, 255);
+  margin: 0%;
+  height: 36.7px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-align: right;
+  width: 100%;
+  padding-top: 17px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  border-top: 0.8px solid rgb(187, 187, 187);
+  font-weight: 500;
+}
+
+.about{
+  display: inline-block;
+  padding-right: 10px;
+  border: none;
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.sign-up{
+  display: inline-block;
+  padding-right: 10px;
+  border: none;
+  margin-left: 10px;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  margin-bottom: 0%;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  height: 50px;
+  padding-top: 20px;
+  text-align: left;
+  margin-bottom: 0%;
+}
+
+.contact{
+  display: inline-block;
+  padding-right: 10px;
+  border: none;
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.sport{
+  display: inline-block;
+  padding-right: 10px;
+  border-right: 1px rgb(0, 0, 0) solid;
+  text-decoration: none;
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.business{
+  display: inline-block;
+  padding-right: 10px;
+  border-right: 1px rgb(0, 0, 0) solid;
+  text-decoration: none;
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.lifestyle{
+  display: inline-block;
+  padding-right: 10px;
+  border-right: 1px rgb(0, 0, 0) solid;
+  text-decoration: none;
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.entertainment{
+  display: inline-block;
+  padding-right: 10px;
+  border-right: 1px rgb(0, 0, 0) solid;
+  text-decoration: none;
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.head{
+text-decoration: none;
+color: black;
+font-size: 30px;
+width: 300px;
+  display: inline-block;
+  margin: none;
+  margin-bottom: 0%;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+iframe{
+width: 100%;
+height: "350";
+border: none;
+}
+
+.form{
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+  width: 260px;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+}
+
+form{
+float: right;
+margin-left: 100px;
+border: none;
+border-radius: 4px;
+box-shadow:0 4px 40px 0 rgba(0,0,0,.15);
+}
+
+.content{
+display: flex;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.text{
+flex-direction: column;
+margin-left: 200px;
+margin-top: 50px;
+width:400px
+}
+
+.text p{
+margin-top: 25px;
+line-height: 28px;
+}
+
+.name{
+display: flex;
+width: 100%;
+}
+
+.firstname{
+width: 45%;
+}
+
+.lastname{
+width: 45%;
+}
+
+#firstname{
+width: 100px;
+background-color: rgb(232, 232, 232);
+border:0.5px rgb(195, 195, 195) solid;
+border-radius: 3px;
+height: 30px;
+}
+
+#lastname{
+width: 130px;
+background-color: rgb(232, 232, 232);
+border:0.5px rgb(195, 195, 195) solid;
+border-radius: 3px;
+height: 30px;
+}
+
+#email{
+width: 245px;
+background-color: rgb(232, 232, 232);
+border:0.5px rgb(195, 195, 195) solid;
+border-radius: 3px;
+height: 30px;
+}
+
+textarea{
+width: 245px;
+background-color: rgb(232, 232, 232);
+border:0.5px rgb(195, 195, 195) solid;
+border-radius: 3px;
+height: 50px;
+}
+
+.button{
+margin-top: 15px;
+border-radius: 4px;
+background-color: black;
+width: 70px;
+height: 30px;
+color: white;
+border: none;
+}
+
+.question{
+margin-bottom: 0%;
+}
+
+h1{
+font-family: Nunito,sans-serif;
+width: 300px;
+font-size: 40px;
+font-weight: normal;
+margin-bottom: 50px;
+}
+
+.fa-square-x-twitter{
+font-size: 28px;
+margin-right: 5px;
+cursor: pointer;
+}
+
+.fa-instagram{
+font-size: 28px;
+margin-right: 5px;
+cursor: pointer;
+}
+
+.fa-envelope{
+font-size: 28px;
+margin-right: 5px;
+cursor: pointer;
+}
+
+.fa-facebook{
+font-size: 28px;
+margin-right: 5px;
+cursor: pointer;
+}

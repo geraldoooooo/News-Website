@@ -1,0 +1,29 @@
+.form{
+    margin-top: 130px;
+    background-color: rgb(72, 72, 72);
+    width: 260px;
+    border-radius: 10px;
+    padding: 20px;
+    color: aliceblue;
+}
+
+body{
+    background-color: rgb(59, 59, 59);
+}
+
+.button{
+    border-radius: 16px;
+    width: 250px;
+    border-style: solid;
+    border: 0px;
+    cursor: pointer;
+    height: 22px;
+}
+
+.button2{
+    border-radius: 16px;
+    width: 50px;
+    border-style: solid;
+    border: 0px;
+    cursor: pointer;
+}
